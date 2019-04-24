@@ -1,33 +1,152 @@
 .App {
   text-align: center;
+  margin-top: 2em;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+body {
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-wrapper {
+  display: flex;
+  margin: 5em auto;
+ /* width: 700px; */
+}
+
+label {
+  margin-right: 1em;
+}
+
+.slider {
+  padding: 1em;
+}
+
+.btn {
+  padding: 1em;
+  margin: 1em;
+}
+
+.column {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.row {
+  display: flex;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dot {
+  width: 1.2em;
+  height: 1.2em;
+  border-radius: 4em;
+  background-color: #000;
+}
+
+.domino .line {
+  width: 5.5em;
+  height: 0.1em;
+  position: absolute;
+  top: 5.7em;
+  left: 0.25em;
+  background-color: #000;
+}
+
+.domino {
+  font-size: 15px;
+  width: 6em;
+  height: 12em;
+  margin: auto 10em;
+  position: relative;
+  border-radius: 0.8em;
+  border: 1px solid black;
+}
+
+.half-domino {
+  font-size: 15px;
+  width: 6em;
+  height: 6em;
+  margin: 0.2em;
+  position: relative;
+  border-radius: 0.8em;
+  border: 1px solid black;
+}
+
+.half-domino-part1 {
+  /*position: absolute;*/
+  top: -0.2em;
+  left: -0.2em;
+  border: none;
+}
+
+.half-domino-part2 {
+  position: absolute;
+  top: 5.7em;
+  left: -0.2em;
+  border: none;
+}
+
+.half-domino {
+  background-color: #fff;
+}
+
+.show {
+  visibility: visible;
+}
+
+.hide {
+  visibility: hidden;
+}
+
+.half-domino .D11 {
+  position: absolute;
+  top: 0.8em;
+  left: 1em;
+}
+
+.half-domino .D12 {
+  position: absolute;
+  top: 0.8em;
+  left: 2.4em;
+}
+
+.half-domino .D13 {
+  top: 0.8em;
+  left: 4em;
+  position: absolute;
+}
+
+.half-domino .D21 {
+  position: absolute;
+  top: 2.4em;
+  left: 1em;
+}
+
+.half-domino .D22 {
+  position: absolute;
+  top: 2.4em;
+  left: 2.5em;
+}
+
+.half-domino .D23 {
+  position: absolute;
+  top: 2.4em;
+  left: 4em;
+}
+
+.half-domino .D31 {
+  position: absolute;
+  top: 4em;
+  left: 1em;
+}
+
+.half-domino .D32 {
+  position: absolute;
+  top: 4em;
+  left: 2.5em;
+}
+
+.half-domino .D33 {
+  position: absolute;
+  top: 4em;
+  left: 4em;
 }
