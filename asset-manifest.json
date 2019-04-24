@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/domino-react-app/static/css/main.77200db7.chunk.css",
+    "main.js": "/domino-react-app/static/js/main.f70b50b4.chunk.js",
+    "main.js.map": "/domino-react-app/static/js/main.f70b50b4.chunk.js.map",
+    "runtime~main.js": "/domino-react-app/static/js/runtime~main.921d2914.js",
+    "runtime~main.js.map": "/domino-react-app/static/js/runtime~main.921d2914.js.map",
+    "static/js/2.cba05053.chunk.js": "/domino-react-app/static/js/2.cba05053.chunk.js",
+    "static/js/2.cba05053.chunk.js.map": "/domino-react-app/static/js/2.cba05053.chunk.js.map",
+    "index.html": "/domino-react-app/index.html",
+    "precache-manifest.314864ceb3743ddd36c14e96b33e797b.js": "/domino-react-app/precache-manifest.314864ceb3743ddd36c14e96b33e797b.js",
+    "service-worker.js": "/domino-react-app/service-worker.js",
+    "static/css/main.77200db7.chunk.css.map": "/domino-react-app/static/css/main.77200db7.chunk.css.map"
+  }
+}
